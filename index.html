@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS Links -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style. css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<title>BT5 From Validation</title>
+</head>
+<body>
+
+	<div class="container">
+
+  <!-- form -->
+<form class="row g-3 needs-validation" novalidate>
+
+  <!-- first name -->
+  <div class="col-md-6">
+    <label for="f_name" class="form-label">First name</label>
+    <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter Your First Name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Enter Your First Name.
+    </div>
+  </div>
+
+  <!-- last name -->
+  <div class="col-md-6">
+    <label for="l_name" class="form-label">Last name</label>
+    <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Enter Your Last Name" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Enter Your Last Name.
+    </div>
+  </div>
+
+  <!-- last name -->
+  <div class="col-md-12">
+    <label for="email" class="form-label">Email Address</label>
+    <input type="email" class="form-control email" id="email" name="email" placeholder="Enter Your Email Address" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Enter Your Email Address.
+    </div>
+  </div>
+
+  <!-- last name -->
+  <div class="col-md-12">
+    <label for="email" class="form-label">Contact No</label>
+    <input type="Contact" class="form-control Contact" id="Contact" name="Contact" placeholder="Enter Your Contact No" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Enter Your Contact No.
+    </div>
+  </div>
+
+<!-- city name -->
+  <div class="col-md-6">
+    <label for="City" class="form-label City">City</label>
+    <input type="City" class="form-control City" id="City" name="City" placeholder="City" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide your city name.
+    </div>
+  </div>
+
+<!-- Zip name -->
+   <div class="col-md-6">
+    <label for="Zip" class="form-label Zip">Zip</label>
+    <input type="Zip" class="form-control Zip" id="Zip" name="Zip" placeholder="Zip" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please provide your state name.
+    </div>
+  </div>
+
+ <!-- datalist options -->
+  <label for="exampledataList" class="form-label">Select Your Desired Course:</label>
+<input class="form-control" list="datalistoptions" id="exampledataList" placeholder="Type to search...">
+<datalist id="datalistoptions">
+  <option value="Full Stack Web Development">
+  <option value="Video Editing">
+  <option value="Digital Marketing">
+  <option value="UI & UX Design">
+  <option value="Motion Graphics">
+    <option value="Search Engine Optimization(SEO)">
+</datalist>
+<!-- formfile -->
+  <div class="mb-3 position-relative">
+  <label for="formfile" class="form-label">Select Your Picture:</label>
+  <input class="form-control" type="file" id="formFile">
+
+    <div class="invalid-tooltip">
+      Please provide a file.
+    </div>
+</div>
+<!-- checkbox -->
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </div>
+
+</form>
+  <!-- form -->
+
+  </div>
+
+
+
+
+
+
+
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html> 
+
+
+
+
+
+
+
+
